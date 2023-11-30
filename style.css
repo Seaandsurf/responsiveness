@@ -1,0 +1,39 @@
+body {
+        background-color: blue;
+    }
+
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: red;
+    }
+}
+
+
+
+/* Paragraphes en bleu par défaut */
+/* p { 
+    color: blue;
+}*/
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+/* @media screen and (max-width: 1024px) { 
+    p {
+        color: red; 
+        background-color: black;
+        font-size: 1.2em;
+    }
+}*/
+
+
+
+
+
+/* background color of the body red when the width of the viewport is smaller than 480px, 
+green when the viewport width is bigger than (or equal to) 480px and smaller than 1024px,
+ and blue when the viewport is bigger than (or equal to) 1024px.*/
